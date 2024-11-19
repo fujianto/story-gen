@@ -1,0 +1,25 @@
+{
+  "name": "story-gen",
+  "version": "0.0.1",
+  "description": "Utility stuff to generate storybook colors files",
+  "main": "index.ts",
+  "bin": {
+    "xstory-gen": "./index.ts"
+  },
+  "scripts": {
+    "test": "pnpm test",
+    "start": "npx ts-node index.ts",
+    "build:tailwind-config": "tsc tailwind.config.ts --module esnext --target es6 --outDir ."
+  },
+  "keywords": [
+    "storybook",
+    "cli"
+  ],
+  "author": "fujianto",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
