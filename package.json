@@ -1,6 +1,6 @@
 {
   "name": "story-genz",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utility stuff to generate storybook colors files",
   "main": "index.ts",
   "bin": {
@@ -14,7 +14,11 @@
     "storybook",
     "cli"
   ],
-  "author": "fujianto",
+  "author": "Fujianto (https://septianfujianto.com)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fujianto/story-genz.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.9.0",
