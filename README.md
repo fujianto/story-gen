@@ -1,4 +1,4 @@
-# Story Gen
+# Story Genz
 
 Generate storybook mdx files. Currently generate Colors.mdx to show list of available colors from tailwind.config.ts
 
@@ -11,7 +11,7 @@ Generate storybook mdx files. Currently generate Colors.mdx to show list of avai
 
 ```bash
 brew install pnpm
-pnpm install story-gen
+pnpm install story-genz
 ```
 
 Then follow the step from the installation
@@ -25,5 +25,5 @@ Run this command to generate stories from component.
 pnpm start ./tests/tailwind.config.ts ../Colors.mdx
 or
 
-story-gen ./tests/tailwind.config.ts ../Colors.mdx
+story-genz ./tests/tailwind.config.ts ../Colors.mdx
 ```

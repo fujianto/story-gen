@@ -1,10 +1,10 @@
 {
-  "name": "story-gen",
+  "name": "story-genz",
   "version": "0.0.1",
   "description": "Utility stuff to generate storybook colors files",
   "main": "index.ts",
   "bin": {
-    "story-gen": "./index.ts"
+    "story-genz": "./index.ts"
   },
   "scripts": {
     "test": "pnpm test",
