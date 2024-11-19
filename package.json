@@ -4,12 +4,11 @@
   "description": "Utility stuff to generate storybook colors files",
   "main": "index.ts",
   "bin": {
-    "xstory-gen": "./index.ts"
+    "story-gen": "./index.ts"
   },
   "scripts": {
     "test": "pnpm test",
-    "start": "npx ts-node index.ts",
-    "build:tailwind-config": "tsc tailwind.config.ts --module esnext --target es6 --outDir ."
+    "start": "npx ts-node index.ts"
   },
   "keywords": [
     "storybook",
